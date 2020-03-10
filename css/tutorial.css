@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*Template biar gampang bikinnya*/
+.grid-1 {width: 8.33%;}
+.grid-2 {width: 16.66%;}
+.grid-3 {width: 25%;}
+.grid-4 {width: 33.33%;}
+.grid-5 {width: 41.66%;}
+.grid-6 {width: 50%;}
+.grid-7 {width: 58.33%;}
+.grid-8 {width: 66.66%;}
+.grid-9 {width: 75%;}
+.grid-10 {width: 83.33%;}
+.grid-11 {width: 91.66%;}
+.grid-12 {width: 100%;}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.navbar .active{
+	color: #d50032;
+}
+
+.title{
+	font-size: 30px;
+	padding-bottom: 15px;
+	margin: 8px;
+	font-family: 'Slabo 27px';
+}
+
+.desc{
+	font-size: 18px;
+	font-family: 'Slabo 27px';
+}
+
+.clear{
+	clear: both;
+}
+/*Template biar gampang bikinnya*/
+
+
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Header*/
+#logo{
+	height: auto;
+	width: 120px;
+	float: left;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+
+.navbar .dropdown {
+	float: right;
+}
+
+.navbar a{
+	float: right;
+	display: inline;
+	color: white;
+	text-align: center;
+	font-family: 'Slabo 27px';
+	font-size: 30px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar .dropdown{
+	display: inline-block;
+}
+
+.navbar .dropdown a{
+	display: inline;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+}
+
+.drop-content{
+	display: none;
+	position: absolute;
+	top: 66px;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(1,1,1,1);
+	z-index: 1;
+}
+
+.drop-content a{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .drop-content {
+	display: block;
+}
+/*Header*/
+
+
+
+
+/*Footer*/
+.sosmed{
+	display: inline-block;
+}
+
+.sosmed img{
+	width: 55%;
+	padding: 5px;
+}
+
+footer{
+	background-color: #eaeaff;
+	padding-bottom: 10px;
+}
+
+footer div:first-child  {
+	margin-top: 70px;
+}
+
+.map{
+	width: 50%;
+}
+/*Footer*/
+
+
+
+
+/*Tutorial*/
+.judul{
+	margin: 0;
+	padding-top: 80px;
+	font-size: 80px;
+	color: white;
+	font-family: 'Slabo 27px';
+}
+
+.head{
+	background-image: url('../Assets/tut1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+main .desc{
+	color: white;
+}
+
+main a{
+	color: red;
+}
+
+.slider1{
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.slider2{
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.slider3{
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.slider-item1{
+	position: relative;
+}
+
+.slider-item2{
+	position: relative;
+}
+
+.slider-item3{
+	position: relative;
+}
+/*Tutorial*/
+
+
+
+@media only screen and (max-width: 500px) {
+	/*Template*/
+	.title{
+		font-size: 15px;
+		margin: 8px;
+		font-family: 'Slabo 27px';
+	}
+
+	.desc{
+		font-size: 10px;
+		font-family: 'Slabo 27px';
+	}
+	/*Template*/
+
+
+
+	/*Header*/
+	#logo{
+		height: auto;
+		width: 50px;
+	}
+
+	.navbar a{
+		display: block;
+		color: #404040;
+		text-align: center;
+		font-size: 10px;
+		padding: 8px 8px;
+		text-decoration: none;
+	}
+	.drop-content{
+		top: 26px;
+	}
+	.drop-content a{
+		float: left;
+		padding: 6px 8px;
+		margin: 0;
+	}
+	/*Header*/
+
+
+
+	/*Footer*/
+	.sosmed{
+		display: inline-block;
+	}
+
+	.sosmed img{
+		width: 20%;
+		padding: 5px;
+	}
+
+	footer{
+		background-color: #eaeaff;
+		padding-bottom: 10px;
+	}
+
+	footer div:first-child  {
+		margin-top: 0;
+	}
+	/*Footer*/
+
+	/*Tutorial*/
+	.judul{
+		padding-top: 25px;
+		font-size: 40px;
+	}
+
+	.head{
+		background-image: url('../Assets/tut1.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 120px;
+		margin: 0;
+		padding: 0;
+	}
+
+	main .desc{
+		color: white;
+		font-size: 10px;
+	}
+
+	main a{
+		color: red;
+		font-size: 10px;
+	}
+
+	.slider1{
+		padding-bottom: 10px;
+	}
+
+	.slider2{
+		padding-bottom: 10px;
+	}
+
+	.slider3{
+		padding-bottom: 10px;
+	}
+	/*Tutorial*/
+
+}

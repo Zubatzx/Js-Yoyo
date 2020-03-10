@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*Template biar gampang bikinnya*/
+.grid-1 {width: 8.33%;}
+.grid-2 {width: 16.66%;}
+.grid-3 {width: 25%;}
+.grid-4 {width: 33.33%;}
+.grid-5 {width: 41.66%;}
+.grid-6 {width: 50%;}
+.grid-7 {width: 58.33%;}
+.grid-8 {width: 66.66%;}
+.grid-9 {width: 75%;}
+.grid-10 {width: 83.33%;}
+.grid-11 {width: 91.66%;}
+.grid-12 {width: 100%;}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.navbar .active{
+	color: #d50032;
+}
+
+.title{
+	font-size: 50px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	font-family: 'Slabo 27px';
+}
+
+.desc{
+	font-size: 18px;
+	font-family: 'Slabo 27px';
+}
+
+.clear{
+	clear: both;
+}
+/*Template biar gampang bikinnya*/
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+#logo{
+	height: auto;
+	width: 120px;
+	float: left;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+
+.navbar .dropdown {
+	float: right;
+}
+
+.navbar a{
+	float: right;
+	display: inline;
+	color: white;
+	text-align: center;
+	font-family: 'Slabo 27px';
+	font-size: 30px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar .dropdown{
+	display: inline-block;
+}
+
+.navbar .dropdown a{
+	display: inline;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+}
+
+.drop-content{
+	display: none;
+	position: absolute;
+	top: 66px;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(1,1,1,1);
+	z-index: 1;
+}
+
+.drop-content a{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .drop-content {
+	display: block;
+}
+/*Header*/
+
+/*Footer*/
+.sosmed{
+	display: inline-block;
+}
+
+.sosmed img{
+	width: 55%;
+	padding: 5px;
+}
+
+footer{
+	background-color: #eaeaff;
+	padding-bottom: 10px;
+}
+
+footer div:first-child  {
+	margin-top: 70px;
+}
+
+.map{
+	width: 50%;
+}
+/*Footer*/
+
+
+
+/*Contact*/
+.judul{
+	padding-top: 140px;
+	font-size: 80px;
+	color: white;
+	margin-bottom: 15px;
+	font-family: 'Slabo 27px';
+}
+
+.imm{
+	width: auto;
+	height: 22vw;;
+}
+
+.cont1{
+	background-image: url('../Assets/cont1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 99vw;
+	height: 35vw;
+
+}
+
+.cont2{
+	padding-top: 30px;
+	margin: 0;
+	background-color: #eaeaff;
+	height: 22vw;
+	width: 100%;
+}
+
+.Storytext{
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	margin: 30px 20px;
+}
+
+.cont5{
+	margin-bottom: 8vw;
+	height: 50vw;
+	width: 99vw;
+	text-decoration: none;
+
+}
+
+.cont5 a{
+	text-decoration: none;
+}
+
+.twitter{
+background-image: url('../Assets/Sosmed/twitter-2.png');
+	height:10vw;
+	width: 10vw;
+	left: 10vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	position:  relative;
+}
+
+.instagram{
+background-image: url('../Assets/Sosmed/instagram2.png');
+	height:10vw;
+	width: 10vw;
+	left: 40vw;
+	bottom:20vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	position:  relative;
+}
+
+.facebook{
+	background-image: url('../Assets/Sosmed/facebook2.png');
+	height:10vw;
+	width: 10vw;
+	left: 70vw;
+	bottom: 10vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	position:  relative;
+	text-decoration: none;
+}
+
+.email{
+	background-image: url('../Assets/Sosmed/email.png');
+	height:10vw;
+	width: 10vw;
+	left: 70vw;
+	bottom: 3vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	position:  relative;
+	text-decoration: none;
+}
+
+.phone{
+	background-image: url('../Assets/Sosmed/phone.png');
+	height:10vw;
+	width: 10vw;
+	left: 40vw;
+	bottom:13vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	position:  relative;
+	text-decoration: none;
+}
+
+.line{
+	background-image: url('../Assets/Sosmed/line.png');
+	height:10vw;
+	width: 10vw;
+	left: 10vw;
+	bottom:23vw;
+	background-size: 10vw;
+	background-repeat: no-repeat;
+	position:  relative;
+	text-decoration: none;
+}
+
+.phoneText{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;	
+	top : 12vw;
+}
+
+.phoneSize{
+	font-size : 2vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 13vw;
+	right : 1vw;
+}
+
+.phoneText:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	text-decoration: none;
+	position : relative;
+	top : 12vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.phoneSize:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	text-decoration: none;
+	position : relative;
+	top : 13vw;
+	right : 1vw;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.instagram2Text{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;	
+	top : 11vw;
+}
+
+.instagram2Size{
+	font-size : 2vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11.7vw;
+	right : 0.5vw;
+}
+
+.instagram2Text:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	text-decoration: none;
+	position : relative;
+	top : 11vw;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.instagram2Size:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	position : relative;
+	top : 11.7vw;
+	right : 0.5vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.facebook2Text{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11vw;
+}
+
+.facebook2Size{
+	font-size : 2vw;
+	color : black;
+	position : relative;
+	top : 11.7vw;
+	right : 0.5vw;
+}
+
+.facebook2Text:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	position : relative;
+	top : 11vw;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+ 	text-decoration: none;
+}
+
+.facebook2Size:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	position : relative;
+	top : 11.7vw;
+	right : 0.5vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.twitter2Text{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11vw;
+}
+
+.twitter2Size{
+	font-size : 2vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11.7vw;
+	right : 0.5vw;
+}
+
+.twitter2Text:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	top : 11vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.twitter2Size:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	top : 11.7vw;
+	right : 0.5vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.lineText{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11vw;
+}
+
+.lineSize{
+	font-size : 2vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 11.7vw;
+	right : 0.2vw;
+}
+
+.lineText:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	position : relative;
+	top : 11vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.lineSize:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	position : relative;
+	top : 11.7vw;
+	right : 0.2vw;
+	text-decoration: none;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.mailText{
+	font-size : 1vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 12vw;
+}
+
+.mailSize{
+	font-size : 2vw;
+	color : black;
+	text-decoration: none;
+	position : relative;
+	top : 13vw;
+	right : 4.3vw;
+}
+
+.mailText:hover{
+	font-size : 1vw;
+	color : #eaeaff;
+	text-decoration: none;
+	position : relative;
+	top : 12vw;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.mailSize:hover{
+	font-size : 2vw;
+	color : #eaeaff;
+	text-decoration: none;
+	position : relative;
+	top : 13vw;
+	right : 4.3vw;
+	opacity: 1;
+	display: block;
+  	transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+/*Contact*/
+
+@media only screen and (max-width: 500px) {
+	/*Template*/
+	.title{
+		font-size: 15px;
+		margin: 5px;
+		font-family: 'Slabo 27px';
+	}
+
+	.desc{
+		font-size: 10px;
+		font-family: 'Slabo 27px';
+	}
+	/*Template*/
+
+
+
+	/*Header*/
+	#logo{
+		height: auto;
+		width: 50px;
+	}
+
+	.navbar a{
+		display: block;
+		color: #404040;
+		text-align: center;
+		font-size: 10px;
+		padding: 8px 8px;
+		text-decoration: none;
+	}
+	.drop-content{
+		top: 26px;
+	}
+	.drop-content a{
+		float: left;
+		padding: 6px 8px;
+		margin: 0;
+	}
+	/*Header*/
+
+
+
+	/*Footer*/
+	.sosmed{
+		display: inline-block;
+	}
+
+	.sosmed img{
+		width: 20%;
+		padding: 5px;
+	}
+
+	footer{
+		background-color: #eaeaff;
+		padding-bottom: 10px;
+	}
+
+	footer div:first-child  {
+		margin-top: 0;
+	}
+	/*Footer*/
+
+	/*Contact*/
+	.judul{
+		padding-top: 40px;
+		font-size: 40px;
+		color: white;
+		margin-bottom: 15px;
+		font-family: 'Slabo 27px';
+	}
+
+	.cont2{
+		padding-top: 5px;
+		margin: 0;
+		background-color: #eaeaff;
+		height: 25vw;
+		width: 100%;
+		padding-bottom: 5px;
+	}
+
+	.Storytext{
+		text-align: center;
+		font-size: 6px;
+		color: black;
+		text-decoration: none;
+		margin: 5px 10px;
+	}
+	/*Contact*/
+}
